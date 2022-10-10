@@ -8,6 +8,7 @@ class dati {
 
 let button = document.querySelector('button');
 
+
 button.onclick = function() {
     let nome = document.querySelector('input[name="nome"]').value;
     let cognome = document.querySelector('input[name="cognome"]').value;
@@ -21,6 +22,7 @@ button.onclick = function() {
 
     aggiungi();
 }
+
 
 function aggiungi (event) {
     let firstRow = document.querySelector('.one');
